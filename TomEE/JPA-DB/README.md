@@ -1,7 +1,7 @@
 ### Key Files
-- [resources/META-INF/beans.xml] (resources/META-INF/beans.xml)  - For working CDI, this file should exist even with empty content.
-- [resources/META-INF/persistence.xml] (resources/META-INF/persistence.xml)
-- [webapp/WEB-INF/resources.xml] (webapp/WEB-INF/resources.xml)
+- [resources/META-INF/beans.xml](resources/META-INF/beans.xml)  - For working CDI, this file should exist even with empty content.
+- [resources/META-INF/persistence.xml](resources/META-INF/persistence.xml)
+- [webapp/WEB-INF/resources.xml](webapp/WEB-INF/resources.xml)
 
 ### HOW To Run
 - Create DB table(s) and insert data using scripts under /resources/sql directory
