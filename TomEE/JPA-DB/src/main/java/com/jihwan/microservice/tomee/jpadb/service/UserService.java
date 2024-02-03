@@ -4,12 +4,11 @@ import com.jihwan.microservice.tomee.jpadb.model.User;
 import jakarta.ejb.Stateful;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import jakarta.persistence.PersistenceContextType;
 
 @Stateful
 public class UserService {
 
-  @PersistenceContext(name="jta-unit", type = PersistenceContextType.EXTENDED)
+  @PersistenceContext(name="jta-unit")
   private EntityManager em;
   public String getUserById(Long id) {
     User usr = em.find(User.class, id);
