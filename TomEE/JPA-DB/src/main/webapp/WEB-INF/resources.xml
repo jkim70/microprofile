@@ -3,8 +3,8 @@
     <Resource id="jdbc/demoDS" type="javax.sql.DataSource">
         jdbcDriver = org.postgresql.Driver
         jdbcUrl = jdbc:postgresql://localhost:5432/mydb
-        password = ugotit1!
-        userName = jihwan11
+        password = CHANGE_ME
+        userName = CHANGE_ME
         jtaManaged = true
     </Resource>
 </resources>
