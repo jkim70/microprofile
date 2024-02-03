@@ -4,7 +4,7 @@
 - [webapp/WEB-INF/resources.xml](webapp/WEB-INF/resources.xml)
 
 ### HOW To Run
-- Create DB table(s) and insert data using scripts under /resources/sql directory
+- Create DB table(s) and insert data using scripts in a sql directory
 - Then,
 ```shell
 mvn clean install tomee:run
